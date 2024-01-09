@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Roboto+Mono:ital,wght@0,200;0,300;0,500;0,600;1,400&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
 
 :root {
 
@@ -311,7 +313,7 @@ h3.hello {
 
 h3.hello span {
 
-    font-family: 'Clicker Script', cursive;
+    font-family: 'Salsa', cursive;
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
@@ -839,3 +841,15 @@ h3.my-profession {
         max-width: 100%;
     }
 }
+
+.portImg {
+    border: 2px solid transparent; /* Set initial border */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition */
+    width: 100px;
+    height: 200px;
+  }
+  
+  .portImg:hover {
+    border-color: var(--skin-color); /* Change border color on hover */
+    box-shadow: 0 0 10px var(--skin-color); /* Optional: add a glow effect */
+  }

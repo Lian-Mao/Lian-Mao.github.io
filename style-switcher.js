@@ -53,3 +53,17 @@ $(document).ready(function () {
         $(this).addClass('active');
     });
 });
+
+$(document).ready(function() {
+    $(window).on('scroll', function() {
+        $('.nav li a').each(function() {
+            var sectionId = $(this).attr('href');
+            var sectionTop = $(sectionId).offset().top - 50; 
+
+            if ($(window).scrollTop() >= sectionTop) {
+                $('.nav li').removeClass('active');
+                $(this).parent('li').addClass('active');
+            }
+        });
+    });
+});

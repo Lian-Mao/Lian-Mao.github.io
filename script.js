@@ -1,8 +1,8 @@
 var typed= new Typed(".typing",{
 
-    strings:["","Porn star","Mother fucker","Child molester","sex offender"],
-    typeSpeed:100,
-    BackSpeed:60,
+    strings:["","navigate data landscapes to innovate tomorrow","craft solutions where technology meets strategy","decode complexities to simplify digital frontiers","bridge insights and technology for impactful change","architect tomorrow's systems today"],
+    typeSpeed:60,
+    BackSpeed:90,
     loop:true
 })
  function sendEmail(){
